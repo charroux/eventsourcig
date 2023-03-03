@@ -1,0 +1,5 @@
+rootProject.name = 'carservice'
+
+include ':eventsourcing'
+
+project(':eventsourcing').projectDir = new File(settingsDir, '../eventsourcing')
