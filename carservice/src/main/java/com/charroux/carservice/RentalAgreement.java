@@ -50,14 +50,15 @@ public class RentalAgreement extends Aggregate {
         }
     }
 
-    public void apply(AgreementCreatedEvent event){
-
-    }
-
     public void apply(CarAddedEvent event){
         event.getCarsId().stream().forEach(carToRentId -> this.carsId.add(carToRentId));
-        //event.getCarsId().stream().forEach(id -> );
     }
+
+
+
+    public void apply(AgreementCreatedEvent event){
+    }
+
 
     public String getCustomerId() {
         return customerId;

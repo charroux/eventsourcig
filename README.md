@@ -39,6 +39,10 @@ https://github.com/charroux/eventsourcig/blob/main/stream/src/main/java/com/char
 
 https://github.com/charroux/eventsourcig/blob/main/carservice/src/main/java/com/charroux/carservice/RentalServiceImpl.java
 
+## Apply vs Process
+<img src="images/apply_vs_process.png">
+x@@
+
 # How to?
 
 docker run --name mongodb -d -p 27017:27017 mongodb/mongodb-community-server:6.0-ubi8
