@@ -5,23 +5,15 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.List;
 
-@Document("aggregates")
-public class Aggregate <Type, Command>{
+@Document("entities")
+public abstract class Aggregate extends Entity{
 
-    @Id
-    private String id;
+    public abstract List<Event> process(Command cmd);
 
-    public List<Event> process(Command cmd){
-        return null;
-    }
-
-    public void apply(Event event){
-    }
+    public abstract void apply(Event event);
 
     @Override
     public String toString() {
-        return "Aggregate{" +
-                "id='" + id + '\'' +
-                '}';
+        return "Aggregate{} " + super.toString();
     }
 }

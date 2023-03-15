@@ -1,16 +1,19 @@
 package com.charroux.eventsourcing;
 
+import java.util.concurrent.atomic.AtomicInteger;
+
 public class Event {
+
+    private static AtomicInteger incr = new AtomicInteger(0);
 
     long id;
     String entityType;
     long entityId;
     String eventType;
-    Object data;
-
-    public Event(){}
+    //Object data;
 
     public Event(String entityType, long entityId, String eventType) {
+        this.id = incr.incrementAndGet();
         this.entityType = entityType;
         this.entityId = entityId;
         this.eventType = eventType;
@@ -48,13 +51,13 @@ public class Event {
         this.eventType = eventType;
     }
 
-    public Object getData() {
+ /*   public Object getData() {
         return data;
     }
 
     public void setData(Object data) {
         this.data = data;
-    }
+    }*/
 
     @Override
     public String toString() {
@@ -63,7 +66,7 @@ public class Event {
                 ", entityType='" + entityType + '\'' +
                 ", entityId=" + entityId +
                 ", eventType='" + eventType + '\'' +
-                ", data=" + data +
+//                ", data=" + data +
                 '}';
     }
 }

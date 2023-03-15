@@ -1,4 +1,5 @@
 rootProject.name = 'event-sourcing'
 
+include 'stream'
 include 'eventsourcing'
 include 'carservice'

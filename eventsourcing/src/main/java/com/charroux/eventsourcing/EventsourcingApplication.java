@@ -15,8 +15,6 @@ public class EventsourcingApplication {
 	@Bean
 	public CommandLineRunner demo() {
 		return (args) -> {
-			Essai essai = new Essai();
-			essai.essai();
 		};
 	}
 
