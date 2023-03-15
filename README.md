@@ -41,7 +41,8 @@ https://github.com/charroux/eventsourcig/blob/main/carservice/src/main/java/com/
 
 ## Apply vs Process
 <img src="images/apply_vs_process.png">
-x@@
+
+https://github.com/charroux/eventsourcig/blob/main/carservice/src/main/java/com/charroux/carservice/RentalAgreement.java
 
 # How to?
 
