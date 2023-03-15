@@ -30,10 +30,16 @@ https://github.com/charroux/eventsourcig/blob/main/stream/src/main/java/com/char
 ## Consumer
 https://github.com/charroux/eventsourcig/blob/main/stream/src/main/java/com/charroux/stream/EventConsumer.java
 
-## 
-# eventsourcig
+# Event sourcig
+## Event sourcing and DDD
+<img src="images/ddd_archi.png">
 
+## The event sourcing pattern
+<img src="images/eventsourcing_pattern.png">
 
+https://github.com/charroux/eventsourcig/blob/main/carservice/src/main/java/com/charroux/carservice/RentalServiceImpl.java
+
+# How to?
 
 docker run --name mongodb -d -p 27017:27017 mongodb/mongodb-community-server:6.0-ubi8
 
