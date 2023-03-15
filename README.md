@@ -22,7 +22,15 @@ https://github.com/charroux/eventsourcig/blob/main/eventsourcing/src/main/java/c
 ### Car
 https://github.com/charroux/eventsourcig/blob/main/carservice/src/main/java/com/charroux/carservice/Car.java
 
+# Message Oriented Middleware with RabbitMQ stream
+<img src="images/rabbitmq_stream.png">
 
+## Publisher
+https://github.com/charroux/eventsourcig/blob/main/stream/src/main/java/com/charroux/stream/EventPublisher.java
+## Consumer
+https://github.com/charroux/eventsourcig/blob/main/stream/src/main/java/com/charroux/stream/EventConsumer.java
+
+## 
 # eventsourcig
 
 
