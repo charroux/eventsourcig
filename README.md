@@ -73,7 +73,7 @@ https://github.com/charroux/eventsourcig/blob/main/carservice/src/main/java/com/
 
 https://github.com/charroux/eventsourcig/blob/main/carservice/src/main/java/com/charroux/carservice/RentalAgreement.java
 
-# How to?
+# Build and run
 
 docker run --name mongodb -d -p 27017:27017 mongodb/mongodb-community-server:6.0-ubi8
 
