@@ -3,10 +3,13 @@
 <div id="user-content-toc">
   <ul>
     <li><a href="#domain-driven-design">1. Domain Driven Design</a></li>
+    <li><a href="#message-oriented-middleware-with-rabbitmq-stream">2. Message Oriented Middleware with RabbitMQ stream</a></li>
+    <li><a href="#event-sourcing">3. Event sourcing</a></li>
+    <li><a href="#build-and-run">4. Build and run</a></li>
   </ul>
 </div>
 
-## Domain Driven Design
+# Domain Driven Design
 
 <img src="images/ddd_archi.png">
 
@@ -41,8 +44,7 @@ https://github.com/charroux/eventsourcig/blob/main/stream/src/main/java/com/char
 ## Consumer
 https://github.com/charroux/eventsourcig/blob/main/stream/src/main/java/com/charroux/stream/EventConsumer.java
 
-# Event sourcig
-## Event sourcing
+# Event sourcing
 
 ## The event sourcing pattern
 <img src="images/eventsourcing_pattern.png">
