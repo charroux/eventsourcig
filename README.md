@@ -2,9 +2,7 @@
 
 <div id="user-content-toc">
   <ul>
-    <li><a href="#domain-driven-design">1. Domain Driven Design</a>
-
-    </li>
+    <li><a href="#domain-driven-design">1. Domain Driven Design</a></li>
   </ul>
 </div>
 
