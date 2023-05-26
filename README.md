@@ -1,19 +1,17 @@
 # Domain Driven Design and Event Sourcing
 
-## Domain Driven Design
-
 <div id="user-content-toc">
   <ul>
     <li><a href="#domain-driven-design">1. Domain Driven Design</a>
         <ul>
             <li><a href="#rest-web-service">1.1. Rest Web Service</a></li>
             <li><a href="#ddd-service>1.2. DDD service</a></li>
-            <li><a href="#ddd-entities-aggregates">1.3. DDD entities, aggregates</a></li>
         </ul>
     </li>
   </ul>
 </div>
 
+## Domain Driven Design
 
 <img src="images/ddd_archi.png">
 
