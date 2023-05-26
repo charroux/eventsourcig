@@ -6,7 +6,8 @@
         <ul>
             <li><a href="#rest-web-service">1.1. Rest Web Service</a></li>
             <li><a href="#ddd-service">1.2. DDD service</a></li>
-            <li><a href="##ddd-entities-and-aggregates">1.3. DDD entities and aggregates</a></li>
+            <li><a href="#ddd-repository">1.3. DDD repository</a></li>
+            <li><a href="##ddd-entities-and-aggregates">1.4. DDD entities and aggregates</a></li>
         </ul>
     </li>
     <li><a href="#message-oriented-middleware-with-rabbitmq-stream">2. Message Oriented Middleware with RabbitMQ stream</a>
