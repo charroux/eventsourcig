@@ -1,4 +1,20 @@
-# Domain Driven Design
+# Domain Driven Design and Event Sourcing
+
+## Domain Driven Design
+
+<div id="user-content-toc">
+  <ul>
+    <li><a href="#domain-driven-design">1. Domain Driven Design</a>
+        <ul>
+            <li><a href="#rest-web-service">1.1. Rest Web Service</a></li>
+            <li><a href="#ddd-service>1.2. DDD service</a></li>
+            <li><a href="#ddd-entities-aggregates">1.3. DDD entities, aggregates</a></li>
+        </ul>
+    </li>
+  </ul>
+</div>
+
+
 <img src="images/ddd_archi.png">
 
 ## Rest Web Service
@@ -25,14 +41,15 @@ https://github.com/charroux/eventsourcig/blob/main/carservice/src/main/java/com/
 # Message Oriented Middleware with RabbitMQ stream
 <img src="images/rabbitmq_stream.png">
 
+https://www.rabbitmq.com/streams.html
+
 ## Publisher
 https://github.com/charroux/eventsourcig/blob/main/stream/src/main/java/com/charroux/stream/EventPublisher.java
 ## Consumer
 https://github.com/charroux/eventsourcig/blob/main/stream/src/main/java/com/charroux/stream/EventConsumer.java
 
 # Event sourcig
-## Event sourcing and DDD
-<img src="images/ddd_archi.png">
+## Event sourcing
 
 ## The event sourcing pattern
 <img src="images/eventsourcing_pattern.png">
