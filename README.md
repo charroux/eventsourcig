@@ -2,9 +2,25 @@
 
 <div id="user-content-toc">
   <ul>
-    <li><a href="#domain-driven-design">1. Domain Driven Design</a></li>
-    <li><a href="#message-oriented-middleware-with-rabbitmq-stream">2. Message Oriented Middleware with RabbitMQ stream</a></li>
-    <li><a href="#event-sourcing">3. Event sourcing</a></li>
+    <li><a href="#domain-driven-design">1. Domain Driven Design</a>
+        <ul>
+            <li><a href="#rest-web-service">1.1. Rest Web Service</a></li>
+            <li><a href="#ddd-service">1.2. DDD service</a></li>
+            <li><a href="##ddd-entities-and-aggregates">1.3. DDD entities and aggregates</a></li>
+        </ul>
+    </li>
+    <li><a href="#message-oriented-middleware-with-rabbitmq-stream">2. Message Oriented Middleware with RabbitMQ stream</a>
+        <ul>
+            <li><a href="#publisher">2.1. Publisher</a></li>
+            <li><a href="#consumer">2.2. Consumer</a></li>
+        </ul>
+    </li>
+    <li><a href="#event-sourcing">3. Event sourcing</a>
+        <ul>
+            <li><a href="#the-event-sourcing-pattern">3.1. The event sourcing pattern</a></li>
+            <li><a href="#apply-vs-process">3.2. Apply vs Process</a></li>
+        </ul>
+    </li>
     <li><a href="#build-and-run">4. Build and run</a></li>
   </ul>
 </div>
@@ -22,7 +38,7 @@ https://github.com/charroux/eventsourcig/blob/main/carservice/src/main/java/com/
 ## DDD repository
 https://github.com/charroux/eventsourcig/blob/main/eventsourcing/src/main/java/com/charroux/eventsourcing/EntityRepositoryImpl.java
 
-## DDD entities, aggregates
+## DDD entities and aggregates
 <img src="images/entity_aggregate.png">
 
 ### RentalAgreement
